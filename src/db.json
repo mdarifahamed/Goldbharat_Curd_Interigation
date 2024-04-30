@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "aec7",
+      "firstname": "Atif",
+      "lastname": "Aslam",
+      "phonenumber": "7897654599",
+      "city": "delhi"
+    },
+    {
+      "id": "2874",
+      "firstname": "Arif",
+      "lastname": "Ekbal",
+      "phonenumber": "8709569858",
+      "city": "patna"
+    }
+  ]
+}

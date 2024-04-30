@@ -1,0 +1,43 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="image">
+                <img src=".../../../../../assets/img2.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <!-- from section -->
+        <div class="col-md-6">
+            <div class="card">
+                <h5>update Contact</h5>
+                <div class="row">
+                    <form >
+                        <div class="form-group mb-1">
+                          <label for="exampleInputEmail1" class="form-label">First Name</label>
+                          <input type="text" [(ngModel)]="contactdata.firstname" name="firstname" class="form-control" placeholder="Enter first name" >
+                        </div>
+                        <div class="form-group mb-1">
+                          <label for="exampleInputEmail1" class="form-label" >Last Name</label>
+                          <input type="text"   [(ngModel)]="contactdata.lastname" name="lastname" class="form-control" placeholder="Enter last name">
+                        </div>
+                        <div class="form-group mb-1">
+                          <label for="exampleInputEmail1" class="form-label">phone Number </label>
+                          <input type="text"  [(ngModel)]="contactdata.phonenumber" name="phonenumber" class="form-control" placeholder="Enter phone" >
+                        </div>
+                        <div class="form-group mb-1">
+                          <label for="exampleInputEmail1" class="form-label">city</label>
+                          <input type="text"  [(ngModel)]="contactdata.city" name="city" class="form-control" placeholder="Enter city" >
+                        </div>
+
+                        <div class="text-center mt-2">
+                            <button type="submit" (click)="update()" class="btn btn-primary">Update</button>&nbsp;
+                            <button type="submit" class="btn btn-success" routerLink="/contactlist">Back</button>
+                        </div>
+                        
+                        
+                      </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
